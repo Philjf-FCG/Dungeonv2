@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "name": "Win64",
+      "intelliSenseMode": "msvc-x64",
+      "compileCommands": "${workspaceFolder}/.vscode/compileCommands_MyProject.json",
+      "includePath": [
+        "${workspaceFolder}/Source/**",
+        "${workspaceFolder}/Source/MyProject/**",
+        "C:/Program Files/Epic Games/UE_5.6/Engine/Source/**",
+        "C:/Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/**",
+        "${workspaceFolder}/Intermediate/**"
+      ],
+      "defines": [
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}/Source",
+          "C:/Program Files/Epic Games/UE_5.6/Engine/Source"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ],
+  "version": 4
+}
+{
+    "configurations": [
+        {
+            "name": "MyProjectEditor Editor Win64 Development (MyProject)",
+            "compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": [
+                "C:\\Users\\philj\\OneDrive\\Documents\\Unreal Projects\\MyProject\\.vscode\\compileCommands_MyProject.json"
+            ]
+        },
+        {
+            "name": "Win32",
+            "compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": [
+                "C:\\Users\\philj\\OneDrive\\Documents\\Unreal Projects\\MyProject\\.vscode\\compileCommands_Default.json"
+            ]
+        }
+    ],
+    "version": 4
+}

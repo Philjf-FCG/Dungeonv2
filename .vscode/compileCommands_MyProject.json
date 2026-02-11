@@ -1,0 +1,26 @@
+[
+	{
+		"file": "C:\\Users\\philj\\OneDrive\\Documents\\Unreal Projects\\MyProject\\Source\\MyProject\\MyProject.Build.cs",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\philj\\OneDrive\\Documents\\Unreal Projects\\MyProject\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\philj\\OneDrive\\Documents\\Unreal Projects\\MyProject\\Source\\MyProject\\MyProject.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\philj\\OneDrive\\Documents\\Unreal Projects\\MyProject\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\philj\\OneDrive\\Documents\\Unreal Projects\\MyProject\\Source\\MyProject\\MyProject.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\philj\\OneDrive\\Documents\\Unreal Projects\\MyProject\\.vscode\\compileCommands_MyProject\\MyProject.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source"
+	}
+]
