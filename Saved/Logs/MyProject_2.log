@@ -1333,3 +1333,6 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.02.12-15.08.06:467][302]LogBlueprint: Error: [AssetLog] C:\Users\philj\OneDrive\Documents\Unreal Projects\Dungeon\Content\L_MainMenu.umap: [Compiler] Variable node  Set bShowMouseCursor  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
 [2026.02.12-15.08.06:469][302]LogStreaming: Display: FlushAsyncLoading(717): 1 QueuedPackages, 0 AsyncPackages
 [2026.02.12-15.08.06:526][302]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2026.02.12-15.12.00:384][812]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1343.759888
+[2026.02.12-15.12.01:385][814]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.12-15.12.01:385][814]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1344.426636, Update Interval: 325.675842
