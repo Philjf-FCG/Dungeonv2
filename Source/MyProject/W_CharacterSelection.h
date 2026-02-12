@@ -6,7 +6,7 @@
 #include "S_HeroData.h" // Our hero struct
 #include "W_CharacterSelection.generated.h"
 
-UCLASS()
+UCLASS(Blueprintable, BlueprintType)
 class MYPROJECT_API UW_CharacterSelection : public UUserWidget
 {
     GENERATED_BODY()
@@ -19,4 +19,8 @@ public:
 protected:
     // Helper to start the game after selection
     void LaunchDungeon();
+    
+    // Return wacky interview quote for character class
+    UFUNCTION(BlueprintCallable, Category = "Selection")
+    FText GetWackyInterviewQuote(EHeroClass SelectedClass);
 };
