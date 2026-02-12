@@ -35,9 +35,11 @@ void ADungeonPlayerController::RequestInteraction() {
 
 void ADungeonPlayerController::ReportNoise(float Amount) {
     // Talk to the GameMode (The Backend Manager)
-    if (this->GetWorld()) {
-        if (ADungeonGameMode* GM = Cast<ADungeonGameMode>(UGameplayStatics::GetGameMode(this->GetWorld()))) {
-            GM->HandleShush(this->GetPawn()); // Logic defined in previous steps
+    if (UWorld* World = this->GetWorld()) {
+        if (ADungeonGameMode* GM = Cast<ADungeonGameMode>(UGameplayStatics::GetGameMode(World))) {
+            if (APawn* Pawn = this->GetPawn()) {
+                GM->HandleShush(Pawn); // Logic defined in previous steps
+            }
         }
     }
 }
