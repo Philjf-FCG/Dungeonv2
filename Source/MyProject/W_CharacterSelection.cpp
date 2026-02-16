@@ -1,5 +1,6 @@
 // W_CharacterSelection.cpp
 #include "W_CharacterSelection.h"
+// Force recompile to pick up virtual LaunchDungeon
 #include "MyDungeonGameInstance.h"
 #include "Kismet/GameplayStatics.h"
 

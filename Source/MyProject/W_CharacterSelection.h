@@ -18,7 +18,7 @@ public:
 
 protected:
     // Helper to start the game after selection
-    void LaunchDungeon();
+    virtual void LaunchDungeon();
     
     // Return wacky interview quote for character class
     UFUNCTION(BlueprintCallable, Category = "Selection")
