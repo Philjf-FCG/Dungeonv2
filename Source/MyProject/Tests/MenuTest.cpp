@@ -2,7 +2,7 @@
 #include "../W_CharacterSelection.h"
 #include "Blueprint/WidgetTree.h"
 #include "Components/Button.h"
-#include "CoreMinimal.h"
+#include "CoreMinimal.h" // Note: This should ideally be first, or via PCH.
 #include "Engine/GameInstance.h"
 #include "Engine/World.h"
 #include "Misc/AutomationTest.h"
